@@ -60,3 +60,7 @@ HRFBoardView *boardView = [[HRFBoardView alloc] initWithFrame:boardFrame padding
 }
 
 ```
+##Dependencies
+<a href="https://github.com/facebook/pop">facebook POP</a>
+
+Pop is an extensible animation engine for iOS and OS X. In addition to basic static animations, it supports spring and decay dynamic animations, making it useful for building realistic, physics-based interactions. The API allows quick integration with existing Objective-C codebases and enables the animation of any property on any object. It's a mature and well-tested framework that drives all the animations and transitions in Paper.
